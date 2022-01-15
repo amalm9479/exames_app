@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // ignore_for_file: prefer_const_constructors
-void main(List<String> args) {
+void main() {
   runApp(ToeflExames());
 }
 
@@ -10,6 +10,10 @@ class ToeflExames extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("teofl"),
+      ),
+    );
   }
 }
